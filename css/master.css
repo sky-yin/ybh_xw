@@ -1,0 +1,77 @@
+
+#page-container
+{
+//clear:both;
+overflow: hidden;
+width: 100%;
+height:300px;
+position: relative;
+margin: auto;
+<!--是左右⾃适应两边距离⼀样--居中，-->
+>
+margin: auto;
+background: red;
+text-align: center;
+}
+#body
+{
+<!--盒⼦和浏览器的顶端有空隙。由于浏览器的默认的填充和边界造成的。消除空隙--> margin: auto;
+height:100%;
+width:100%;
+font-family:Sans-serif;
+font-size: 16px;
+color: #666666;
+background: #ffffff;
+}
+<!--加⼊类，可以使页⾯上任意属于hidden类的元素(element)不显⽰-->
+.hidden {display: none;}
+
+#content
+{
+background:rgb(0, 0, 0) ;
+clear: both;
+height:100%;
+width:30%;
+float:left;
+display: flex;
+			flex-direction: column;
+			align-items: center;
+font-family: "⿊体";
+text-decoration: underline;
+border-style:none;
+}
+#footer
+
+{
+background: rgb(0, 0, 0);
+width:70%;
+height:100%;
+float:right;
+}
+#desk
+{
+clear: both;
+margin:auto;
+background: rgb(0, 0, 0);
+
+width:100%;
+height:50%;
+}
+#shelf
+{
+background: rgb(0, 0, 0);
+float:left;
+width:50%;
+height:50%;
+//border-style:solid;
+}
+
+#block
+{
+clear: both;
+background: rgb(0, 0, 0) ;
+float:right;
+width:50%;
+height:50%;
+//border-style:solid;
+}
